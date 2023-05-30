@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- header start -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="./img/Frame.svg" alt="" style="width: 150px;"></a>
+
+        <nav class="navbar">
+            <a href="#home">Главная</a>
+            <a href="#vehicles">Автомобили</a>
+            <a href="#services">Услуги</a>
+            <a href="#featured">Популярные</a>
+            <a href="#review">Обзор</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">вход</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- login form start -->
+
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">VK</a>
+            </div>
+            <p>don't have an account <a href="#">create one</a></p>
+        </form>
+
+    </div>
+
+    <!-- login form end -->
+
+    <!-- home sections start-->
+
+    <section class="home" id="home">
+
+        <h1 class="home-parallax" data-speed="-2">найди свою машину</h1>
+        <img class="home-parallax" data-speed="5" src="./img/главная.svg" alt="">
+        <a href="#" class="btn home-parallax" data-speed="7">Найти машину</a>
+    </section>
+
+    <!-- home sections end-->
+
+    <!-- icons sections start-->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>моделей</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>780+</h3>
+                <p>довольных клиентов</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>проданно авто</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>789+</h3>
+                <p>новых машин</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- icons sections end-->
+
+    <!-- vehicle section start -->
+
+    <section class="vechicles" id="vehicles">
+
+        <h1 class="heading">популярные  <span>машины</span> </h1>
+
+        <div class="swiper vechicles-slider">
+
+            <div class=" swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="acura">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/bentley_PNG53.png" alt="bentley">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/bmw_PNG1683.png" alt="bmw">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/cadillac_PNG69.png" alt="cadillac">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="kia">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/nissan_PNG91.png" alt="kia">
+                    <div class="content">
+                        <h3>новые машины</h3>
+                        <div class="price"> <span>price:</span> $45000/-</div>
+                        <p>
+                            new
+                            <span class="fas.fa-circle"></span>2022
+                            <span class="fas.fa-circle"></span>automatic
+                            <span class="fas.fa-circle"></span>petrol
+                            <span class="fas.fa-circle"></span>183mph
+                        </p>
+                        <a href="#" class="btn">Забронировать</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- vehicle section end -->
+
+
+    <!-- services  start-->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">Наш  <span>Сервис</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>продажа автомобилей</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>ремонт двигателей</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>авто страховка</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>замена батареи</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>замена масла</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 работаем</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae beatae a voluptates quos
+                    recusandae rerum. Vel dolorem voluptate omnis.
+                </p>
+                <a href="#" class="btn">читать далее</a>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- services  end-->
+
+    <!-- featured sections start -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>избранные</span>автомобили</h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/acura_PNG129.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./img/kia_PNG89.png" alt="">
+                    <h3>Новые модели</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">читать далее</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+    </section>
+
+    <!-- featured sections end -->
+
+    <!--newsletter section start  -->
+
+    <section class="newsletter">
+
+        <h3>Подпишитесь на последние обновления</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <form action="">
+            <input type="email" placeholder="enter your email" name="" id="">
+            <input type="submit" class="subscribe" name="" id="">
+        </form>
+
+    </section>
+
+    <!--newsletter section end  -->
+
+    <!-- review start -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">отзывы <span>клиентов</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./img/1.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/2.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/3.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="./img/4.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/5.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/6 (2).jpg" alt="">
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione voluptas debitis
+                            est magnam illum voluptate odio eos nesciunt fugiat.
+                        </p>
+                        <h3>XXXXXXX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- review end -->
+
+    <!-- contact section start -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Связаться. с  </span>нами</h1>
+
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5660092997!2d36.72621418737845!3d55.58103354253051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1685388321673!5m2!1sru!2sru"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>Связаться</h3>
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="отправить письмо" class="btn">
+            </form>
+
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- fotter -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>наши филиалы</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Россия</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Турция</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Грузия</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Израиль</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Узбекистан</a>
+            </div>
+
+
+            <div class="box">
+                <h3>навигация</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>vechicles</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i>services</a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i>featured</a>
+                <a href="#review"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i>contact</a>
+            </div>
+
+
+            <div class="box">
+                <h3>связь</h3>
+                <a href="#"><i class="fas fa-phone"></i>+7-901-000-00-00</a>
+                <a href="#"><i class="fas fa-phone"></i>+7-901-000-00-00</a>
+                <a href="#"><i class="fas fa-envelope"></i>alaska.alex.agp@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Россия,Москва -000000</a>
+            </div>
+
+            <div class="box">
+                <h3>соц сети</h3>
+                <a href="#"><i class="fa-brands fa-telegram" style="color: #2c05c8;"></i>Telegram</a>
+                <a href="#"><i class="fa-brands fa-google" style="color: #db1a5d;"></i>Gmail</a>
+                <a href="#"><i class="fab fa-instagram" style="color: #f70e0e;"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin" style="color: #0a87f5;"></i>linkedin</a>
+                <a href="#"><i class="fa-brands fa-pinterest" style="color: #261f22;"></i>pinterest</a>
+            </div>
+
+        </div>
+        <div class="credit">Created by Alaska Alex Web Developer | All rights reserved!</div>
+    </section>
+
+    <!-- fotter end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
